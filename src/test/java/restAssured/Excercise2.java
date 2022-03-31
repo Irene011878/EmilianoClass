@@ -12,6 +12,8 @@ import io.restassured.response.Response;
 
 public class Excercise2 {
 	
+	//clase Emiliano
+	
 	@BeforeTest
 	private void startTesting() {
 		RestAssured.baseURI = "https://petstore.swagger.io/v2"; 
